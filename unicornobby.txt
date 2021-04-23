@@ -1,0 +1,304 @@
+--but gone wrong
+--made by me and hopefully used by you, use it. you legit came here to view the source you can atleast use it or have you? legit what were you thinking when you said "yes let me look inside the source" its like using stats for nerds on youtube but literally for a script what is wrong with you if you're going to look here atleast use it Man
+
+local unicorn = Instance.new("ScreenGui")
+local unciornsick = Instance.new("Frame")
+local maintitle = Instance.new("TextLabel")
+local gonewrong = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local player = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local tptoend = Instance.new("TextButton")
+local geteventprize = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local Frame = Instance.new("Frame")
+local UIGradient_3 = Instance.new("UIGradient")
+local Frame_2 = Instance.new("Frame")
+local UIGradient_4 = Instance.new("UIGradient")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Frame_3 = Instance.new("Frame")
+local UIGradient_5 = Instance.new("UIGradient")
+local autodie = Instance.new("TextButton")
+local Frame_4 = Instance.new("Frame")
+local UIGradient_6 = Instance.new("UIGradient")
+local Frame_5 = Instance.new("Frame")
+local UIGradient_7 = Instance.new("UIGradient")
+local Line = Instance.new("Frame")
+local ImageLabel_3 = Instance.new("ImageLabel")
+
+--properties:
+
+unicorn.Name = "unicorn"
+unicorn.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+unicorn.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+unicorn.ResetOnSpawn = false
+
+unciornsick.Name = "unciornsick"
+unciornsick.Parent = unicorn
+unciornsick.BackgroundColor3 = Color3.fromRGB(4, 21, 35)
+unciornsick.Position = UDim2.new(0.131859407, 0, 0.476608247, 0)
+unciornsick.Size = UDim2.new(0, 456, 0, 262)
+unciornsick.ZIndex = 3
+
+maintitle.Name = "maintitle"
+maintitle.Parent = unciornsick
+maintitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+maintitle.BackgroundTransparency = 1.000
+maintitle.Position = UDim2.new(0.0855580419, 0, -0.0111300908, 0)
+maintitle.Size = UDim2.new(0, 46, 0, 50)
+maintitle.ZIndex = 3
+maintitle.Font = Enum.Font.GothamBlack
+maintitle.Text = "Unicorn Obby"
+maintitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+maintitle.TextSize = 14.000
+
+gonewrong.Name = "gonewrong"
+gonewrong.Parent = unciornsick
+gonewrong.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gonewrong.BackgroundTransparency = 1.000
+gonewrong.Position = UDim2.new(0.315668225, 0, -0.0111300908, 0)
+gonewrong.Size = UDim2.new(0, 46, 0, 50)
+gonewrong.ZIndex = 3
+gonewrong.Font = Enum.Font.Gotham
+gonewrong.Text = "but gone wrong"
+gonewrong.TextColor3 = Color3.fromRGB(255, 255, 255)
+gonewrong.TextSize = 14.000
+
+ImageLabel.Parent = unciornsick
+ImageLabel.BackgroundColor3 = Color3.fromRGB(13, 19, 31)
+ImageLabel.BorderColor3 = Color3.fromRGB(13, 19, 31)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0542631447, 0, 0.176704854, 0)
+ImageLabel.Size = UDim2.new(0, 54, 0, 53)
+ImageLabel.ZIndex = 5
+ImageLabel.Image = "http://www.roblox.com/asset/?id=4787613143"
+
+player.Name = "player"
+player.Parent = unciornsick
+player.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+player.BackgroundTransparency = 1.000
+player.Position = UDim2.new(0.0419399478, 0, 0.349036485, 0)
+player.Size = UDim2.new(0, 64, 0, 50)
+player.ZIndex = 3
+player.Font = Enum.Font.SourceSans
+player.Text = "player"
+player.TextColor3 = Color3.fromRGB(255, 255, 255)
+player.TextSize = 14.000
+player.TextTransparency = 0.500
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 255, 241)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(248, 255, 102)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 33, 255))}
+UIGradient.Offset = Vector2.new(0.300000012, 0.300000012)
+UIGradient.Parent = player
+
+tptoend.Name = "tptoend"
+tptoend.Parent = unciornsick
+tptoend.BackgroundColor3 = Color3.fromRGB(24, 52, 86)
+tptoend.BackgroundTransparency = 0.700
+tptoend.Position = UDim2.new(0.0373883359, 0, 0.596380711, 0)
+tptoend.Size = UDim2.new(0, 113, 0, 30)
+tptoend.ZIndex = 3
+tptoend.Font = Enum.Font.SourceSans
+tptoend.Text = "tp to end"
+tptoend.TextColor3 = Color3.fromRGB(255, 255, 255)
+tptoend.TextSize = 14.000
+tptoend.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-71.4537735, 839.726685, -1652.76086)
+end)
+
+geteventprize.Name = "geteventprize"
+geteventprize.Parent = unciornsick
+geteventprize.BackgroundColor3 = Color3.fromRGB(24, 52, 86)
+geteventprize.BackgroundTransparency = 0.700
+geteventprize.Position = UDim2.new(0.310266972, 0, 0.596380711, 0)
+geteventprize.Size = UDim2.new(0, 113, 0, 30)
+geteventprize.ZIndex = 3
+geteventprize.Font = Enum.Font.SourceSans
+geteventprize.Text = "get event prize"
+geteventprize.TextColor3 = Color3.fromRGB(255, 255, 255)
+geteventprize.TextSize = 14.000
+geteventprize.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-104.441162, 42.1409874, 242.520432)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-30.6437778, 24.2641354, 194.605545)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-105.39576, 24.2695313, 157.776886)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-23.288269, 24.2645874, 157.67662)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(29.6807632, 4.15407228, 157.773575)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(162.991028, 4.15496922, 103.740707)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(163.512161, 4.15488052, -116.550812)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-64.3832245, -50.3136139, -353.945435)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-46.5717201, -50.3222466, -424.748688)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.971508, -50.3234215, -583.364014)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.6380882, -50.318676, -661.856628)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.5827446, -50.3205376, -809.862427)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-64.1043167, -50.3163261, -1032.62976)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.2015457, -50.05756, -1162.67737)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-63.5527267, 845.090698, -854.580322)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-70.73069, 844.301331, -1073.88696)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-71.8798065, 835.874146, -1652.72253)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-100.66864, 835.117676, -1665.41443)
+	print("end")
+end)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 255, 241)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(248, 255, 102)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 33, 255))}
+UIGradient_2.Offset = Vector2.new(0.300000012, 0.300000012)
+UIGradient_2.Parent = unciornsick
+
+Frame.Parent = unciornsick
+Frame.BackgroundColor3 = Color3.fromRGB(255, 76, 184)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(1, 0, -0.00349647575, 0)
+Frame.Size = UDim2.new(0, 1, 0, 263)
+Frame.ZIndex = 3
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 255, 241)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(248, 255, 102)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 33, 255))}
+UIGradient_3.Offset = Vector2.new(0.300000012, 0.300000012)
+UIGradient_3.Parent = Frame
+
+Frame_2.Parent = unciornsick
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 76, 184)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0, 0, 0.999999881, 0)
+Frame_2.Size = UDim2.new(0, 457, 0, 1)
+Frame_2.ZIndex = 3
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 255, 241)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(248, 255, 102)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 33, 255))}
+UIGradient_4.Offset = Vector2.new(0.300000012, 0.300000012)
+UIGradient_4.Parent = Frame_2
+
+ImageLabel_2.Parent = unciornsick
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(13, 19, 31)
+ImageLabel_2.BackgroundTransparency = 0.500
+ImageLabel_2.BorderColor3 = Color3.fromRGB(13, 19, 31)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.134401962, 0, 0.176704809, 0)
+ImageLabel_2.Size = UDim2.new(0, 33, 0, 53)
+ImageLabel_2.ZIndex = 3
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=4787613143"
+ImageLabel_2.ImageTransparency = 0.900
+
+Frame_3.Parent = unciornsick
+Frame_3.BackgroundColor3 = Color3.fromRGB(4, 21, 35)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.0116418535, 0, 0.0190839693, 0)
+Frame_3.Size = UDim2.new(0, 444, 0, 245)
+Frame_3.ZIndex = 2
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 255, 241)), ColorSequenceKeypoint.new(0.23, Color3.fromRGB(52, 62, 255)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(248, 255, 102)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 33, 255))}
+UIGradient_5.Offset = Vector2.new(0.300000012, 0.300000012)
+UIGradient_5.Parent = Frame_3
+
+autodie.Name = "autodie"
+autodie.Parent = unciornsick
+autodie.BackgroundColor3 = Color3.fromRGB(24, 52, 86)
+autodie.BackgroundTransparency = 0.700
+autodie.Position = UDim2.new(0.035194464, 0, 0.745235741, 0)
+autodie.Size = UDim2.new(0, 113, 0, 30)
+autodie.ZIndex = 3
+autodie.Font = Enum.Font.SourceSans
+autodie.Text = "auto die LOL"
+autodie.TextColor3 = Color3.fromRGB(255, 255, 255)
+autodie.TextSize = 14.000
+autodie.MouseButton1Down:Connect(function()
+    while wait(0.1) do
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(129.087784, -3.36666274, -214.153748)
+	end
+end)
+
+Frame_4.Parent = unciornsick
+Frame_4.BackgroundColor3 = Color3.fromRGB(255, 76, 184)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, -0.00763368607, 0)
+Frame_4.Size = UDim2.new(0, 457, 0, 1)
+Frame_4.ZIndex = 3
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 255, 241)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(248, 255, 102)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 33, 255))}
+UIGradient_6.Offset = Vector2.new(0.300000012, 0.300000012)
+UIGradient_6.Parent = Frame_4
+
+Frame_5.Parent = unciornsick
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 76, 184)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(-0.00219298247, 0, -0.00349647575, 0)
+Frame_5.Size = UDim2.new(0, 1, 0, 263)
+Frame_5.ZIndex = 3
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 255, 241)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(248, 255, 102)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 33, 255))}
+UIGradient_7.Offset = Vector2.new(0.300000012, 0.300000012)
+UIGradient_7.Parent = Frame_5
+
+Line.Name = "Line"
+Line.Parent = unciornsick
+Line.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0.0327274464, 0, 0.534547925, 0)
+Line.Size = UDim2.new(0, 424, 0, 1)
+Line.ZIndex = 3
+
+ImageLabel_3.Parent = unciornsick
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(13, 19, 31)
+ImageLabel_3.BackgroundTransparency = 0.500
+ImageLabel_3.BorderColor3 = Color3.fromRGB(13, 19, 31)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.151945814, 0, 0.176704809, 0)
+ImageLabel_3.Size = UDim2.new(0, 40, 0, 53)
+ImageLabel_3.ZIndex = 2
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=4787613143"
+ImageLabel_3.ImageTransparency = 0.900
+
+-- Scripts:
+
+local function IXDSKUA_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
+
+	local plr = game.Players.LocalPlayer
+	local userId = plr.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	script.Parent.Image = content
+end
+coroutine.wrap(IXDSKUA_fake_script)()
+local function UWXC_fake_script() -- player.LocalScript 
+	local script = Instance.new('LocalScript', player)
+
+	script.Parent.Text = game.Players.LocalPlayer.Name
+end
+coroutine.wrap(UWXC_fake_script)()
+local function PYRUKYS_fake_script() -- ImageLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_2)
+
+	local plr = game.Players.LocalPlayer
+	local userId = plr.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	script.Parent.Image = content
+end
+coroutine.wrap(PYRUKYS_fake_script)()
+local function BAJOOT_fake_script() -- ImageLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_3)
+
+	local plr = game.Players.LocalPlayer
+	local userId = plr.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = game.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	script.Parent.Image = content
+end
+coroutine.wrap(BAJOOT_fake_script)()
